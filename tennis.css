@@ -15,3 +15,16 @@ body {
 .nav-link {
     color: white;
 }
+.carousel{
+    height: 500px;
+}
+.carousel-item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .carousel-item > img {
+    position: absolute;
+    height: 500px;min-width: 100%;
+    top: 0;
+    left: 0;
+}
