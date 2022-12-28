@@ -1,5 +1,5 @@
 body {
-    padding: 20px;
+    padding-bottom: 20px;
     color: #5a5a5a;
 }
 .navbar-wrapper {
@@ -40,4 +40,13 @@ body {
     min-width: 100%;
     top: 0;
     left: 0;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.card-body {
+    text-align: center;
 }
