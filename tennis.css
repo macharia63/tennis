@@ -26,7 +26,11 @@ body {
 .navbar-wrapper .navbar .container {
     width: auto;
 }
-
+ .carousel-item {
+    height: 500px;
+    margin bottom: 50px;
+    
+ }
 h2 {
     text-align: center;
 }
