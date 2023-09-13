@@ -31,6 +31,10 @@ body {
     margin bottom: 50px;
 
  }
+ .carousel-inner > .carousel-item > img {
+    position: absolute;
+    
+ }
 h2 {
     text-align: center;
 }
