@@ -34,13 +34,8 @@ body {
     height: 500px;
     background-color: #777;
 }
-.carousel-inner > .carousel-item > img {
-    position: absolute;
-    height: 1000px;
-    min-width: 100%;
-    top: 0;
-    left: 0;
-}
+
+
 h2 {
     text-align: center;
 }
