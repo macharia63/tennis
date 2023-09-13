@@ -26,10 +26,10 @@ body {
 .navbar-wrapper .navbar .container {
     width: auto;
 }
- .carousel-item {
+ .carousel {
     height: 500px;
     margin bottom: 50px;
-    
+
  }
 h2 {
     text-align: center;
