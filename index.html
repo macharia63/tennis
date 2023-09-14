@@ -40,62 +40,58 @@
     </div>
 </div>
 <div id="Home">
-  <div class="row">
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="ten3.jpg" class="img-fluid responsive" alt="tennis">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="ten1.jpg" class="img-fluid responsive" alt="tennis">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="ten2.jpg" class="img-fluid responsive" alt="tennis">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ten1.jpg" alt="tennis" class="d-block">
+      <div class="carousel-caption">
+        <h3 class="photo">Weekends and Holidays classes</h3>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="carousel-item">
+      <img src="ten2.jpg" alt="tennis" class="d-block">
+      <div class="carousel-caption">
+        <h3>Evening classes</h3>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="ten3.jpg" alt="tennis" class="d-block">
+      <div class="carousel-caption">
+        <h3>Weekdays Classes</h3>
+      </div>  
     </div>
   </div>
-
-      
-          
-         
   
-   
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
 
-        
+
+  
     
 
-      <h2>About us</h2>
+      <h2 id="About us">About us</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, dignissimos voluptate minima qui natus placeat iste id recusandae cumque accusantium dicta quia illum sapiente maiores voluptas tenetur aspernatur, vel quae.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate quaerat, officia vitae debitis neque aliquam expedita libero laborum ducimus, harum provident labore dolorem eius!</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reprehenderit ullam a, ad, autem molestiae deserunt consectetur non repellat minus aperiam dolores est vitae in. Beatae impedit placeat fugiat necessitatibus id tempora corporis repellendus! Ullam quia quaerat alias sequi corporis voluptatum nihil laudantium impedit mollitia harum aut magni, pariatur iusto.</p>
       <div class="row">
-        <h3>Meet Our Coaches</h3>
+        <h2 class="coaches">Meet Our Coaches</h2>
         <div class="col-lg-4">
           <div class="card" style="width: 24rem;">
             <img src="tenniscoach1.jpg" class="card-img-top" alt="tenniscoach1">
@@ -132,7 +128,7 @@
 </div>
 <hr class="divider">
 <div id="Lessons">
-  <h4 class="lessons">Our Lessons</h4>
+  <h2 id="lessons" class="lessons">Our Lessons</h2>
   <div class="row">
     <div class="col-md-7 mickey">
       <div class="card text-center">

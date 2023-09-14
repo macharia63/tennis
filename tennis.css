@@ -3,7 +3,7 @@ body {
     color: #5a5a5a;
 }
 .navbar-wrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -29,6 +29,7 @@ body {
  .carousel {
     height: 500px;
     margin bottom: 50px;
+    background-color: black;
 
  }
  .carousel-inner > .carousel-item > img {
@@ -37,16 +38,21 @@ body {
     min-width: 100%;
     top: 0;
     left: 0;
+    width:100%
  }
  .carousel-item {
     height: 500px;
 
+ }
+ .photo {
+  color: #5a5a5a;
  }
 h2 {
     text-align: center;
 }
 h3 {
     text-align: center;
+    color:whitesmoke;
 }
 .card-body {
     text-align: center;
